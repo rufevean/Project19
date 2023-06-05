@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+.ParallaxPage{
+  height:100%;
+}
+
+
+.ParallaxAnimation,
+.layer {
+  height:100vh;
+  overflow:hidden !important;
+}
+
+.ParallaxAnimation {
+  display: block;
+}
+
+.layer {
+  background-position: bottom center;
+  width: 100%;
+  background-size: contain !important;
+}
+.layer.layer1 {
+  position: fixed;
+  background-repeat:no-repeat !important;
+}
+
+#layer1{
+  margin-top:15%;
+  background: url("../assets/finallayer1.png");
+
+}
+#layer2 {
+  margin-top:10%;
+  background: url("../assets/finallayer2.png");
+}
+#layer3 {
+  background: url("../assets/finallayer3.png");
+}
+
+
+.project-text{
+  font-family: 'Red Hat Display', sans-serif;
+  font-size:4rem;
+  z-index:1200;
+  color:black;
+  position: sticky;
+}
