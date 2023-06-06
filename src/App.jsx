@@ -11,7 +11,7 @@ function App() {
     // Simulate an asynchronous task
     setTimeout(() => {
       setIsLoading(false);
-    }, 5000);
+    }, 2000);
   }, []);
   return (
      <div>

@@ -37,12 +37,12 @@ export default function Preloader() {
       if (number < 18) {
         setNumber((prevNumber) => prevNumber + 1);
       }
-    }, 250);
+    }, 100);
 
     setTimeout(() => {
       clearInterval(interval);
       clearInterval(numberInterval);
-    }, 5000);
+    }, 2000);
 
     return () => {
       clearInterval(interval);
