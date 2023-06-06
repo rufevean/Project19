@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+.Preloader{
+  height:100vh;
+  width:100vw;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:4rem;
+  font-family: 'Red Hat Display', sans-serif;
+  gap:10px;
+  background:black;
+}
+
+.Preloader-Content{
+  padding:4%;
+  border-radius:15px;
+  background:white;
+  font-weight:400;
+  text-align:center;
+  align-self:center;
+  position:absolute;
+}
+
+img{
+  height:100vh;
+  width:100vw;
+}

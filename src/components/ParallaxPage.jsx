@@ -42,7 +42,7 @@ const ParallaxPage = () => {
           }}
         >
           <animated.h1 className="project-text" style={textProps}>
-            PROJECT 19
+            MONTH 19
           </animated.h1>
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={4} depth={0.4}>
