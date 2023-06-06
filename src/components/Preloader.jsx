@@ -31,18 +31,18 @@ export default function Preloader() {
   useEffect(() => {
     const interval = setInterval(() => {
       setImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 50);
+    }, 500);
 
     const numberInterval = setInterval(() => {
       if (number < 18) {
         setNumber((prevNumber) => prevNumber + 1);
       }
-    }, 100);
+    }, 250);
 
     setTimeout(() => {
       clearInterval(interval);
       clearInterval(numberInterval);
-    }, 2000);
+    }, 5000);
 
     return () => {
       clearInterval(interval);
