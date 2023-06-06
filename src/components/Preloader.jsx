@@ -31,7 +31,7 @@ export default function Preloader() {
   useEffect(() => {
     const interval = setInterval(() => {
       setImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 500);
+    }, 50);
 
     const numberInterval = setInterval(() => {
       if (number < 18) {
