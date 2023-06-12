@@ -1,6 +1,65 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Italianno&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
 .HomePage{
-  height:200vh;
+  height:92vh;
+
+}
+
+.wrapper{
+background:linear-gradient(-45deg,#D69187, #EABDA2);
+  min-height:100vh;
+}
+.question{
+  
+  display: flex;
+  align-items:center;
+  text-align:center;
+  justify-content:center;
+  flex-direction:column;
+  margin:0% 15%;
+  gap:10px;
+}
+
+.q-essay{
+  font-family:Italianno;
+  font-size:3rem;
+  font-weight:500;
+  margin-top:10%;
+
+}
+
+.q-button{
+  font-size:1.1rem;
+  border-radius:5px;
+  margin-top:5%;
+  border:0px solid transparent; 
+  padding:5px 35px;
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+.fat-popup{
+  font-size:4rem;
+  margin-top:5%;
+  font-family:'Red Hat Display'
+}
+
+
+input{
+  border-radius:15px;
+  width:20%;
+  padding:15px;
+  border:0px solid transparent;
+}
+
+.Qa,.Qb,.Qc,.Qd{
+  font-size:2rem;
+  font-weight:400;
+  margin:10% auto 1% auto;
+   font-family: 'Red Hat Display', sans-serif;
+
 }

@@ -1,0 +1,2 @@
+
+yea, its on sophie's bday . I still remember the red decoration and the cake you bought for her.A random moment in those days that i remember is the time when you entered my world for getting thoe anemo flowers for rosaria and we talked for hours just there and the time i went to have a haircut and you were getting ready for your college, thats the first time i ever saw fat pig .thats it for this letter, more on the next one, goodluck for your next question.
